@@ -36,7 +36,6 @@ print('Физика',sr_phy, med_phy)
 
 #print(df.describe())
 
-
 Q1_Math = df['Математика'].quantile(0.25)
 Q3_Math = df['Математика'].quantile(0.75)
 IQR_Math = Q3_Math - Q1_Math
